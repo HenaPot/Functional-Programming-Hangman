@@ -1,6 +1,3 @@
-// collection of words with letters over 5, random word generation 
-// number of incorrect guesses = 6
-// ASCII hangman art being drawn
 import scala.util.Random
 import scala.io.StdIn.readChar
 
@@ -70,63 +67,81 @@ val HangmanPics: Array[String] = Array(
   """
 )
 
-val words: Vector[String] = Vector("banana", "test", "osmoza", "hena", "maja")
-val word: String = words(Random.nextInt(words.length))
+val words = Array("banana", "test", "osmoza", "hena", "maja")
 
 @main def hangman(): Unit = {
-  var guessesLeft = HangmanPics.length - 1 //6
-  var hangmanState = 0
-  var gameEnd = false
-  var pooledWordSet: Set[Char] = Set()
-  var wordSet: Set[Char] = word.toSet
+  println("Welcome to the game of hangman!")
 
-  println(word)
-  for character <- word do print("_ ")
-  print(HangmanPics(0))
+  val word = Random.shuffle(words).head
 
-  while(guessesLeft > 0 && !gameEnd) {
-    print("Please enter a letter: ")
-    var hit = false
+  val initialState = GameState(
+    guessesLeft = HangmanPics.length - 1,
+    hangmanState = 0,
+    pooledWordSet = Set(),
+    wordSet = word.toSet
+  )
+
+  playGame(initialState, word)
+}
+
+def playGame(state: GameState, word: String): Unit = {
+  if (state.guessesLeft > 0 && state.pooledWordSet != state.wordSet) {
+
+    drawHangman(state)
+    println(generateKnownUnknownLetters(word, state.pooledWordSet))
+    displayInformationMessages(state)
 
     var letter: Char = handleIOErrors()
 
-    for (character <- word) {
-      if (character == letter && !pooledWordSet.contains(letter)) then
-        hit = true
-        print(s"$letter ")
-        pooledWordSet = pooledWordSet + character
-      else if (pooledWordSet.contains(character)) then
-        print(s"$character ")
-      else 
-        print("_ ")
-    }
-   
+    val (updatedState, hit) = updatedGameState(state, word, letter)
 
-
-    if !hit then 
-      guessesLeft -= 1
-      hangmanState += 1
-    else
-      println()
-      println("Good job!")
-
-    print(HangmanPics(hangmanState))
-    println("Guesses remaining: " + guessesLeft)
-
-    gameEnd = pooledWordSet == wordSet
+    playGame(updatedState, word)
+  } else {
+    if (state.pooledWordSet == state.wordSet) println("YOU WON CONGRATS")
+    else println("You silly failure")
   }
-
-  if gameEnd then 
-    println("YOU WON CONGRATS")
-  else 
-    println("You silly failure")
 }
 
-def handleIOErrors(): Char = 
-  try 
-    readChar().toLower
-  catch
-    case e: Exception => ' '
+def handleIOErrors(): Char = {
+  print("Please enter a letter: ")
+  try {
+    val input = readChar().toLower
+    if (input.isLetter) input
+    else {
+      println("Invalid input. Please enter a letter.")
+      handleIOErrors()
+    }
+  }
+  catch {
+    case _: Exception => 
+      println("Invalid input. Please try again.")
+      handleIOErrors()
+  }
+}
 
+def updatedGameState(state: GameState, word: String, letter: Char): (GameState, Boolean) = {
+  val hit = word.contains(letter) && !state.pooledWordSet.contains(letter)
+  val newPooledWordSet = if (hit) state.pooledWordSet + letter else state.pooledWordSet
+  val newState = state.copy(
+    guessesLeft = if (hit) state.guessesLeft else state.guessesLeft - 1,
+    hangmanState = if (hit) state.hangmanState else state.hangmanState + 1,
+    pooledWordSet = newPooledWordSet
+  )
+  (newState, hit)
+}
+
+def drawHangman(state: GameState): Unit = {
+  println(HangmanPics(state.hangmanState))
+}
+
+def generateKnownUnknownLetters(word: String, pooledWordSet: Set[Char]): String = {
+  word.map {
+    c => if (pooledWordSet.contains(c)) c else '_'
+  }.mkString(" ")
+}
+
+def displayInformationMessages(state: GameState): Unit = {
+  println("Guesses remaining: " + state.guessesLeft)
+}
 
 

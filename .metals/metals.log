@@ -3717,3 +3717,946 @@ WARNING: Unmatched cancel notification for request id 12163
 2024.12.28 21:35:48 INFO  Shut down connection with build server.
 2024.12.28 21:35:48 INFO  Canceling debug proxy for [hangman]
 2024.12.28 21:35:48 INFO  Exiting server
+2024.12.29 15:57:46 INFO  Started: Metals version 1.4.2 in folders 'C:\Faks 3\PL\hangman' for client Visual Studio Code 1.96.2.
+2024.12.29 15:57:47 INFO  no build target found for C:\Faks 3\PL\hangman\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.29 15:57:50 INFO  no build target found for C:\Faks 3\PL\hangman\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.29 15:57:50 INFO  Attempting to connect to the build server...
+2024.12.29 15:57:50 INFO  No running Bloop server found, starting one.
+2024.12.29 15:57:53 INFO  Starting compilation server
+2024.12.29 15:57:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Faks 3\PL\hangman\.metals\bsp.trace.json or C:\Users\Hena\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.29 15:58:01 INFO  Attempting to connect to the build server...
+2024.12.29 15:58:01 INFO  Found a Bloop server running
+2024.12.29 15:58:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Faks 3\PL\hangman\project\.metals\bsp.trace.json or C:\Users\Hena\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.29 15:58:01 INFO  time: Connected to build server in 10s
+2024.12.29 15:58:01 INFO  Connected to Build server: Bloop v2.0.6
+2024.12.29 15:58:01 INFO  time: Imported build in 0.16s
+2024.12.29 15:58:01 INFO  running doctor check
+2024.12.29 15:58:01 INFO  java targets: hangman, hangman-build, hangman-test
+2024.12.29 15:58:16 INFO  time: indexed workspace in 14s
+2024.12.29 15:58:59 INFO  compiling hangman (1 scala source)
+2024.12.29 15:59:05 INFO  time: compiled hangman in 6.04s
+2024.12.29 15:59:10 INFO  compiling hangman (1 scala source)
+2024.12.29 15:59:10 WARN  Could not load snapshot text for C:\Faks 3\PL\hangman\src\main\scala\Main.scala
+2024.12.29 15:59:10 INFO  time: compiled hangman in 0.94s
+2024.12.29 15:59:11 INFO  compiling hangman (1 scala source)
+2024.12.29 15:59:11 INFO  time: compiled hangman in 0.63s
+2024.12.29 16:00:27 INFO  compiling hangman (1 scala source)
+2024.12.29 16:00:27 INFO  time: compiled hangman in 0.58s
+2024.12.29 16:00:28 WARN  Could not load snapshot text for C:\Faks 3\PL\hangman\src\main\scala\Main.scala
+2024.12.29 16:00:28 WARN  Could not load snapshot text for C:\Faks 3\PL\hangman\src\main\scala\Main.scala
+2024.12.29 16:00:29 INFO  compiling hangman (1 scala source)
+2024.12.29 16:00:29 INFO  time: compiled hangman in 0.71s
+2024.12.29 16:00:50 INFO  compiling hangman (1 scala source)
+2024.12.29 16:00:50 INFO  time: compiled hangman in 0.58s
+2024.12.29 16:00:52 INFO  compiling hangman (1 scala source)
+2024.12.29 16:00:52 INFO  time: compiled hangman in 0.6s
+2024.12.29 16:00:55 INFO  compiling hangman (1 scala source)
+2024.12.29 16:00:55 INFO  time: compiled hangman in 0.5s
+2024.12.29 16:05:54 INFO  compiling hangman (1 scala source)
+2024.12.29 16:05:54 INFO  time: compiled hangman in 0.36s
+2024.12.29 16:05:57 INFO  compiling hangman (1 scala source)
+2024.12.29 16:05:57 INFO  time: compiled hangman in 0.64s
+2024.12.29 16:05:58 INFO  compiling hangman (1 scala source)
+2024.12.29 16:05:58 INFO  time: compiled hangman in 0.61s
+2024.12.29 16:06:02 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:02 INFO  time: compiled hangman in 0.28s
+2024.12.29 16:06:05 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:05 INFO  time: compiled hangman in 0.34s
+2024.12.29 16:06:16 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:16 INFO  time: compiled hangman in 0.58s
+2024.12.29 16:06:28 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:28 INFO  time: compiled hangman in 0.91s
+2024.12.29 16:06:32 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:32 INFO  time: compiled hangman in 0.63s
+2024.12.29 16:06:48 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:48 INFO  time: compiled hangman in 0.55s
+2024.12.29 16:06:51 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:51 INFO  time: compiled hangman in 0.22s
+2024.12.29 16:06:53 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:53 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:06:56 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:56 INFO  time: compiled hangman in 0.2s
+2024.12.29 16:06:57 INFO  compiling hangman (1 scala source)
+2024.12.29 16:06:57 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:07:02 INFO  compiling hangman (1 scala source)
+2024.12.29 16:07:02 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:07:20 INFO  compiling hangman (1 scala source)
+2024.12.29 16:07:20 INFO  time: compiled hangman in 0.2s
+Dec 29, 2024 4:07:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 759
+2024.12.29 16:07:27 INFO  compiling hangman (1 scala source)
+2024.12.29 16:07:27 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:07:29 INFO  compiling hangman (1 scala source)
+2024.12.29 16:07:29 INFO  time: compiled hangman in 0.2s
+2024.12.29 16:07:32 INFO  compiling hangman (1 scala source)
+2024.12.29 16:07:32 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:08:28 INFO  compiling hangman (1 scala source)
+2024.12.29 16:08:28 INFO  time: compiled hangman in 0.27s
+2024.12.29 16:08:35 INFO  compiling hangman (1 scala source)
+2024.12.29 16:08:35 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:08:45 INFO  compiling hangman (1 scala source)
+2024.12.29 16:08:45 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:08:51 INFO  compiling hangman (1 scala source)
+2024.12.29 16:08:51 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:08:54 INFO  compiling hangman (1 scala source)
+2024.12.29 16:08:54 INFO  time: compiled hangman in 0.17s
+2024.12.29 16:08:58 INFO  compiling hangman (1 scala source)
+2024.12.29 16:08:58 INFO  time: compiled hangman in 0.2s
+2024.12.29 16:09:06 INFO  compiling hangman (1 scala source)
+2024.12.29 16:09:06 INFO  time: compiled hangman in 0.18s
+2024.12.29 16:09:13 INFO  compiling hangman (1 scala source)
+2024.12.29 16:09:13 INFO  time: compiled hangman in 0.18s
+2024.12.29 16:12:40 INFO  compiling hangman (1 scala source)
+2024.12.29 16:12:40 INFO  time: compiled hangman in 0.22s
+2024.12.29 16:12:41 INFO  compiling hangman (1 scala source)
+2024.12.29 16:12:41 INFO  time: compiled hangman in 0.23s
+2024.12.29 16:12:46 INFO  compiling hangman (1 scala source)
+2024.12.29 16:12:46 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:13:37 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:37 ERROR C:\Faks 3\PL\hangman\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptTrivia(ScalaToplevelMtags.scala:1002)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseMethodArgs(ScalaToplevelMtags.scala:686)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseMemberDefinitionLhs(ScalaToplevelMtags.scala:665)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:338)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:948)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.29 16:13:37 INFO  time: compiled hangman in 0.22s
+2024.12.29 16:13:46 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:46 INFO  time: compiled hangman in 0.18s
+2024.12.29 16:13:50 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:50 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:13:51 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:51 INFO  time: compiled hangman in 0.2s
+2024.12.29 16:13:53 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:53 INFO  time: compiled hangman in 0.28s
+2024.12.29 16:13:54 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:54 INFO  time: compiled hangman in 0.25s
+2024.12.29 16:13:56 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:56 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:13:59 INFO  compiling hangman (1 scala source)
+2024.12.29 16:13:59 INFO  time: compiled hangman in 0.17s
+2024.12.29 16:14:05 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:05 INFO  time: compiled hangman in 0.19s
+Dec 29, 2024 4:14:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1297
+2024.12.29 16:14:06 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:06 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:14:11 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:11 INFO  time: compiled hangman in 0.48s
+2024.12.29 16:14:16 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:16 INFO  time: compiled hangman in 0.42s
+2024.12.29 16:14:23 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:23 INFO  time: compiled hangman in 0.42s
+2024.12.29 16:14:26 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:26 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:14:34 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:34 INFO  time: compiled hangman in 0.17s
+2024.12.29 16:14:43 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:43 INFO  time: compiled hangman in 0.45s
+2024.12.29 16:14:44 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:44 INFO  time: compiled hangman in 0.14s
+2024.12.29 16:14:46 INFO  compiling hangman (1 scala source)
+2024.12.29 16:14:46 INFO  time: compiled hangman in 0.45s
+2024.12.29 16:44:12 INFO  compiling hangman (1 scala source)
+2024.12.29 16:44:12 INFO  time: compiled hangman in 0.8s
+2024.12.29 16:44:34 INFO  compiling hangman (1 scala source)
+2024.12.29 16:44:34 INFO  time: compiled hangman in 0.32s
+2024.12.29 16:44:45 INFO  compiling hangman (1 scala source)
+2024.12.29 16:44:45 INFO  time: compiled hangman in 0.11s
+2024.12.29 16:44:46 INFO  compiling hangman (1 scala source)
+2024.12.29 16:44:46 INFO  time: compiled hangman in 0.1s
+2024.12.29 16:44:52 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:44:52 INFO  time: compiled hangman in 0.29s
+2024.12.29 16:44:55 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:44:55 INFO  time: compiled hangman in 0.35s
+2024.12.29 16:44:59 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:44:59 INFO  time: compiled hangman in 0.26s
+2024.12.29 16:45:01 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:01 INFO  time: compiled hangman in 0.23s
+2024.12.29 16:45:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:13 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:45:17 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:17 INFO  time: compiled hangman in 0.27s
+2024.12.29 16:45:19 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:19 INFO  time: compiled hangman in 0.3s
+2024.12.29 16:45:21 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:21 INFO  time: compiled hangman in 0.34s
+2024.12.29 16:45:24 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:24 INFO  time: compiled hangman in 0.26s
+2024.12.29 16:45:28 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:28 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:45:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:36 INFO  time: compiled hangman in 0.23s
+2024.12.29 16:45:37 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:37 INFO  time: compiled hangman in 0.23s
+2024.12.29 16:45:39 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:39 INFO  time: compiled hangman in 0.25s
+2024.12.29 16:45:44 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:44 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:45:48 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:48 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:45:50 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:50 INFO  time: compiled hangman in 0.25s
+2024.12.29 16:45:52 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:52 INFO  time: compiled hangman in 0.19s
+2024.12.29 16:45:57 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:57 INFO  time: compiled hangman in 0.32s
+2024.12.29 16:45:59 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:45:59 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:46:06 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:06 INFO  time: compiled hangman in 0.28s
+2024.12.29 16:46:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:07 INFO  time: compiled hangman in 0.22s
+2024.12.29 16:46:09 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:09 INFO  time: compiled hangman in 0.26s
+2024.12.29 16:46:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:13 INFO  time: compiled hangman in 0.22s
+2024.12.29 16:46:20 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:20 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:46:25 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:25 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:46:27 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:27 INFO  time: compiled hangman in 0.17s
+2024.12.29 16:46:29 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:29 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:46:39 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:39 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:46:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:46:42 INFO  time: compiled hangman in 0.26s
+2024.12.29 16:47:29 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:47:29 INFO  time: compiled hangman in 0.26s
+2024.12.29 16:48:10 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:48:10 INFO  time: compiled hangman in 0.23s
+2024.12.29 16:52:12 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:52:12 INFO  time: compiled hangman in 0.26s
+2024.12.29 16:52:14 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:52:14 INFO  time: compiled hangman in 0.24s
+2024.12.29 16:52:16 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:52:16 INFO  time: compiled hangman in 0.2s
+2024.12.29 16:59:27 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:27 INFO  time: compiled hangman in 0.29s
+2024.12.29 16:59:39 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:39 INFO  time: compiled hangman in 0.23s
+2024.12.29 16:59:43 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:43 INFO  time: compiled hangman in 0.31s
+2024.12.29 16:59:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:45 INFO  time: compiled hangman in 0.28s
+2024.12.29 16:59:48 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:48 INFO  time: compiled hangman in 0.27s
+2024.12.29 16:59:55 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:55 INFO  time: compiled hangman in 0.21s
+2024.12.29 16:59:56 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:56 INFO  time: compiled hangman in 0.22s
+2024.12.29 16:59:58 INFO  compiling hangman (2 scala sources)
+2024.12.29 16:59:59 INFO  time: compiled hangman in 1.13s
+2024.12.29 17:00:01 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:01 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:00:03 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:03 INFO  time: compiled hangman in 0.24s
+2024.12.29 17:00:06 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:06 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:00:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:07 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:00:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:13 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:00:16 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:16 INFO  time: compiled hangman in 0.22s
+Dec 29, 2024 5:00:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2576
+2024.12.29 17:00:19 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:19 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:00:21 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:21 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:00:27 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:27 INFO  time: compiled hangman in 0.27s
+2024.12.29 17:00:28 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:28 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:00:30 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:30 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:00:33 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:33 INFO  time: compiled hangman in 0.5s
+Dec 29, 2024 5:00:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2669
+2024.12.29 17:00:34 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:34 INFO  time: compiled hangman in 0.54s
+2024.12.29 17:00:37 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:37 INFO  time: compiled hangman in 0.28s
+2024.12.29 17:00:44 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:44 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:00:51 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:51 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:00:54 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:54 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:00:57 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:00:57 INFO  time: compiled hangman in 0.26s
+2024.12.29 17:01:01 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:01 INFO  time: compiled hangman in 0.32s
+2024.12.29 17:01:05 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:05 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:01:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:07 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:01:10 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:10 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:01:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:13 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:01:15 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:15 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:01:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:18 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:01:20 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:20 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:01:27 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:27 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:01:33 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:33 INFO  time: compiled hangman in 0.35s
+Dec 29, 2024 5:01:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3082
+2024.12.29 17:01:40 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:40 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:01:43 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:43 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:01:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:45 INFO  time: compiled hangman in 0.23s
+Dec 29, 2024 5:01:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3228
+2024.12.29 17:01:52 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:52 INFO  time: compiled hangman in 0.29s
+2024.12.29 17:01:54 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:54 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:01:56 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:01:56 INFO  time: compiled hangman in 0.3s
+2024.12.29 17:02:14 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:02:14 INFO  time: compiled hangman in 0.53s
+2024.12.29 17:02:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:02:18 INFO  time: compiled hangman in 0.28s
+2024.12.29 17:02:21 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:02:21 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:02:25 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:02:25 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:04:37 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:04:37 INFO  time: compiled hangman in 0.28s
+Dec 29, 2024 5:04:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3603
+2024.12.29 17:04:40 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:04:40 INFO  time: compiled hangman in 0.53s
+2024.12.29 17:04:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:04:42 INFO  time: compiled hangman in 0.52s
+2024.12.29 17:04:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:04:45 INFO  time: compiled hangman in 0.32s
+2024.12.29 17:04:47 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:04:47 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:04:53 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:04:53 INFO  time: compiled hangman in 0.45s
+Dec 29, 2024 5:05:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3801
+2024.12.29 17:05:06 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:05:06 INFO  time: compiled hangman in 0.5s
+2024.12.29 17:05:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:05:07 INFO  time: compiled hangman in 0.37s
+Dec 29, 2024 5:05:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3844
+2024.12.29 17:05:14 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:05:14 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:05:15 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:05:15 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:05:24 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:05:24 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:05:29 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:05:29 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:05:34 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:05:34 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:08:49 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:08:49 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:08:50 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:08:50 INFO  time: compiled hangman in 0.32s
+2024.12.29 17:09:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:07 INFO  time: compiled hangman in 0.3s
+2024.12.29 17:09:08 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:08 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:09:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:13 INFO  time: compiled hangman in 0.25s
+Dec 29, 2024 5:09:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4305
+2024.12.29 17:09:23 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:23 INFO  time: compiled hangman in 0.24s
+Dec 29, 2024 5:09:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4366
+2024.12.29 17:09:34 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:34 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:09:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:36 INFO  time: compiled hangman in 0.21s
+Dec 29, 2024 5:09:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4417
+2024.12.29 17:09:38 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:38 INFO  time: compiled hangman in 0.24s
+2024.12.29 17:09:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:42 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:09:48 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:48 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:09:57 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:09:57 INFO  time: compiled hangman in 0.24s
+2024.12.29 17:10:00 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:00 INFO  time: compiled hangman in 0.4s
+2024.12.29 17:10:09 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:09 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:10:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:13 INFO  time: compiled hangman in 0.28s
+2024.12.29 17:10:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:18 INFO  time: compiled hangman in 0.31s
+2024.12.29 17:10:19 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:19 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:10:22 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:22 INFO  time: compiled hangman in 0.2s
+Dec 29, 2024 5:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4820
+2024.12.29 17:10:26 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:26 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:10:40 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:40 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:10:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:42 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:10:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:45 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:10:48 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:10:48 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:12:01 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:01 INFO  time: compiled hangman in 0.32s
+2024.12.29 17:12:05 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:05 INFO  time: compiled hangman in 0.53s
+2024.12.29 17:12:06 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:06 INFO  time: compiled hangman in 0.26s
+2024.12.29 17:12:08 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:08 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:12:10 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:10 INFO  time: compiled hangman in 0.26s
+2024.12.29 17:12:12 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:12 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:12:15 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:15 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:12:17 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:17 INFO  time: compiled hangman in 0.26s
+2024.12.29 17:12:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:18 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:12:20 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:20 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:12:22 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:22 INFO  time: compiled hangman in 0.24s
+2024.12.29 17:12:24 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:24 INFO  time: compiled hangman in 0.24s
+Dec 29, 2024 5:12:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5145
+2024.12.29 17:12:49 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:49 INFO  time: compiled hangman in 0.43s
+2024.12.29 17:12:52 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:52 INFO  time: compiled hangman in 0.31s
+2024.12.29 17:12:54 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:54 INFO  time: compiled hangman in 0.45s
+2024.12.29 17:12:56 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:56 INFO  time: compiled hangman in 0.57s
+2024.12.29 17:12:59 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:12:59 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:13:03 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:03 INFO  time: compiled hangman in 0.27s
+2024.12.29 17:13:06 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:06 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:13:08 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:08 INFO  time: compiled hangman in 0.37s
+2024.12.29 17:13:10 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:10 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:13:12 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:12 INFO  time: compiled hangman in 0.61s
+Dec 29, 2024 5:13:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5406
+Dec 29, 2024 5:13:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5409
+Dec 29, 2024 5:13:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5436
+2024.12.29 17:13:20 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:20 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:13:22 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:22 INFO  time: compiled hangman in 0.49s
+2024.12.29 17:13:24 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:24 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:13:26 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:26 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:13:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:36 INFO  time: compiled hangman in 0.3s
+2024.12.29 17:13:40 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:40 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:13:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:42 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:13:44 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:44 INFO  time: compiled hangman in 0.41s
+2024.12.29 17:13:55 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:55 INFO  time: compiled hangman in 0.45s
+2024.12.29 17:13:57 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:13:57 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:14:00 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:00 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:14:05 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:05 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:14:09 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:09 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:14:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:13 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:14:25 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:25 INFO  time: compiled hangman in 0.25s
+2024.12.29 17:14:26 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:26 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:14:31 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:31 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:14:35 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:35 INFO  time: compiled hangman in 0.48s
+2024.12.29 17:14:36 ERROR C:\Faks 3\PL\hangman\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:948)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.29 17:14:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:36 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:14:39 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:39 INFO  time: compiled hangman in 0.3s
+2024.12.29 17:14:45 ERROR C:\Faks 3\PL\hangman\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptTrivia(ScalaToplevelMtags.scala:1002)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseMethodArgs(ScalaToplevelMtags.scala:686)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseMemberDefinitionLhs(ScalaToplevelMtags.scala:665)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:338)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:948)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.29 17:14:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:45 INFO  time: compiled hangman in 0.22s
+Dec 29, 2024 5:14:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5869
+2024.12.29 17:14:49 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:49 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:14:50 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:50 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:14:52 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:52 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:14:57 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:57 INFO  time: compiled hangman in 0.48s
+2024.12.29 17:14:59 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:14:59 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:15:04 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:04 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:15:08 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:08 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:15:10 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:10 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:15:15 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:15 INFO  time: compiled hangman in 0.46s
+2024.12.29 17:15:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:18 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:15:20 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:20 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:15:22 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:22 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:15:25 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:25 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:15:26 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:26 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:15:30 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:30 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:15:33 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:15:33 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:16:04 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:04 INFO  time: compiled hangman in 0.37s
+2024.12.29 17:16:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:07 INFO  time: compiled hangman in 0.4s
+2024.12.29 17:16:12 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:12 INFO  time: compiled hangman in 0.52s
+2024.12.29 17:16:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:13 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:16:16 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:16 INFO  time: compiled hangman in 0.56s
+2024.12.29 17:16:17 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:17 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:16:25 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:25 INFO  time: compiled hangman in 0.33s
+Dec 29, 2024 5:16:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6526
+2024.12.29 17:16:28 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:28 INFO  time: compiled hangman in 0.36s
+Dec 29, 2024 5:16:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6567
+Dec 29, 2024 5:16:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6575
+2024.12.29 17:16:40 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:40 INFO  time: compiled hangman in 0.28s
+2024.12.29 17:16:43 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:43 INFO  time: compiled hangman in 0.33s
+2024.12.29 17:16:46 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:46 INFO  time: compiled hangman in 0.44s
+2024.12.29 17:16:49 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:49 INFO  time: compiled hangman in 0.43s
+2024.12.29 17:16:51 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:51 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:16:53 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:53 INFO  time: compiled hangman in 0.46s
+2024.12.29 17:16:56 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:16:56 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:17:03 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:03 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:17:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:07 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:17:14 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:14 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:17:17 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:17 INFO  time: compiled hangman in 0.4s
+2024.12.29 17:17:22 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:22 INFO  time: compiled hangman in 0.42s
+2024.12.29 17:17:26 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:26 INFO  time: compiled hangman in 0.37s
+2024.12.29 17:17:28 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:28 INFO  time: compiled hangman in 0.45s
+2024.12.29 17:17:29 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:29 INFO  time: compiled hangman in 0.47s
+2024.12.29 17:17:33 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:33 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:17:34 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:34 INFO  time: compiled hangman in 0.46s
+2024.12.29 17:17:38 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:38 INFO  time: compiled hangman in 0.42s
+2024.12.29 17:17:39 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:39 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:17:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:42 INFO  time: compiled hangman in 0.33s
+Dec 29, 2024 5:17:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7253
+2024.12.29 17:17:52 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:17:52 INFO  time: compiled hangman in 0.47s
+2024.12.29 17:18:01 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:01 INFO  time: compiled hangman in 0.41s
+2024.12.29 17:18:03 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:03 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:18:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:07 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:18:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:13 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:18:15 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:15 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:18:17 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:17 INFO  time: compiled hangman in 0.33s
+2024.12.29 17:18:28 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:28 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:18:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:36 INFO  time: compiled hangman in 0.37s
+2024.12.29 17:18:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:45 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:18:47 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:47 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:18:53 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:53 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:18:57 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:57 INFO  time: compiled hangman in 0.26s
+Dec 29, 2024 5:18:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7844
+2024.12.29 17:18:58 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:18:58 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:19:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:18 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:19:21 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:21 INFO  time: compiled hangman in 0.26s
+2024.12.29 17:19:23 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:23 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:19:29 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:29 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:19:35 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:35 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:19:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:42 INFO  time: compiled hangman in 0.31s
+2024.12.29 17:19:44 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:44 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:19:54 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:54 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:19:56 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:19:56 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:20:03 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:03 INFO  time: compiled hangman in 0.28s
+2024.12.29 17:20:05 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:05 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:20:06 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:06 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:20:09 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:09 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:20:16 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:16 INFO  time: compiled hangman in 0.22s
+2024.12.29 17:20:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:18 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:20:20 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:20 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:20:40 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:40 INFO  time: compiled hangman in 0.26s
+2024.12.29 17:20:41 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:20:41 INFO  time: compiled hangman in 0.28s
+Dec 29, 2024 5:21:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8442
+2024.12.29 17:21:24 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:21:24 INFO  time: compiled hangman in 0.24s
+2024.12.29 17:21:25 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:21:25 INFO  time: compiled hangman in 0.23s
+2024.12.29 17:21:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:21:36 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:21:38 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:21:38 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:23:23 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:23:23 INFO  time: compiled hangman in 0.3s
+2024.12.29 17:23:31 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:23:31 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:23:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:23:36 INFO  time: compiled hangman in 0.17s
+Dec 29, 2024 5:23:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8798
+2024.12.29 17:23:39 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:23:39 INFO  time: compiled hangman in 0.37s
+2024.12.29 17:23:42 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:23:42 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:23:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:23:45 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:23:54 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:23:54 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:24:00 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:00 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:24:04 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:04 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:24:06 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:06 INFO  time: compiled hangman in 0.17s
+Dec 29, 2024 5:24:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8970
+2024.12.29 17:24:11 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:11 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:24:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:13 INFO  time: compiled hangman in 0.16s
+2024.12.29 17:24:14 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:14 INFO  time: compiled hangman in 0.44s
+2024.12.29 17:24:16 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:16 INFO  time: compiled hangman in 0.27s
+2024.12.29 17:24:19 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:19 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:24:23 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:23 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:24:24 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:24 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:24:26 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:26 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:24:31 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:31 INFO  time: compiled hangman in 0.21s
+2024.12.29 17:24:35 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:35 INFO  time: compiled hangman in 0.31s
+2024.12.29 17:24:36 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:36 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:24:38 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:38 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:24:45 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:45 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:24:48 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:48 INFO  time: compiled hangman in 0.31s
+2024.12.29 17:24:53 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:53 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:24:55 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:24:55 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:25:07 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:07 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:25:13 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:13 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:25:22 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:22 INFO  time: compiled hangman in 0.31s
+2024.12.29 17:25:23 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:23 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:25:28 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:28 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:25:30 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:30 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:25:48 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:48 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:25:52 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:25:52 INFO  time: compiled hangman in 0.13s
+2024.12.29 17:26:18 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:26:18 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:27:38 INFO  compiling hangman (2 scala sources)
+2024.12.29 17:27:39 ERROR text document: file:///C:/Faks%203/PL/hangman/src/main/scala/Main.scala
+java.nio.file.NoSuchFileException: C:\Faks 3\PL\hangman\.bloop\hangman\bloop-bsp-clients-classes\classes-Metals-k41xYq08SOiCvrJHHx26pQ==\META-INF\semanticdb\src\main\scala\Main.scala.semanticdb
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.nio.file.Files.newInputStream(Files.java:160)
+	at scala.meta.internal.mtags.Semanticdbs$.loadTextDocuments(Semanticdbs.scala:24)
+	at scala.meta.internal.mtags.Semanticdbs$.loadResolvedTextDocument(Semanticdbs.scala:71)
+	at scala.meta.internal.mtags.Semanticdbs$.loadTextDocument(Semanticdbs.scala:55)
+	at scala.meta.internal.metals.FileSystemSemanticdbs.textDocument(FileSystemSemanticdbs.scala:67)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$3(MetalsLspService.scala:1238)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1236)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.12.29 17:27:38 INFO  time: compiled hangman in 0.64s
+2024.12.29 17:27:40 INFO  compiling hangman (1 scala source)
+2024.12.29 17:27:40 INFO  time: compiled hangman in 0.46s
+2024.12.29 17:27:42 INFO  compiling hangman (1 scala source)
+2024.12.29 17:27:42 INFO  time: compiled hangman in 0.48s
+2024.12.29 17:27:43 INFO  compiling hangman (1 scala source)
+2024.12.29 17:27:43 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:27:47 INFO  compiling hangman (1 scala source)
+2024.12.29 17:27:47 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:27:51 INFO  compiling hangman (1 scala source)
+2024.12.29 17:27:51 INFO  time: compiled hangman in 0.49s
+2024.12.29 17:27:57 INFO  compiling hangman (1 scala source)
+2024.12.29 17:27:57 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:27:59 INFO  compiling hangman (1 scala source)
+2024.12.29 17:27:59 INFO  time: compiled hangman in 0.13s
+2024.12.29 17:28:01 INFO  compiling hangman (1 scala source)
+2024.12.29 17:28:01 INFO  time: compiled hangman in 0.14s
+2024.12.29 17:28:06 INFO  compiling hangman (1 scala source)
+2024.12.29 17:28:06 INFO  time: compiled hangman in 0.2s
+2024.12.29 17:28:23 INFO  compiling hangman (1 scala source)
+2024.12.29 17:28:23 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:28:26 INFO  compiling hangman (1 scala source)
+2024.12.29 17:28:26 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:28:47 INFO  compiling hangman (1 scala source)
+2024.12.29 17:28:47 INFO  time: compiled hangman in 0.19s
+2024.12.29 17:28:52 INFO  compiling hangman (1 scala source)
+2024.12.29 17:28:52 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:28:55 INFO  compiling hangman (1 scala source)
+2024.12.29 17:28:55 INFO  time: compiled hangman in 0.32s
+2024.12.29 17:29:06 INFO  compiling hangman (1 scala source)
+2024.12.29 17:29:06 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:29:16 INFO  compiling hangman (1 scala source)
+2024.12.29 17:29:16 INFO  time: compiled hangman in 0.19s
+2024.12.29 17:29:19 INFO  compiling hangman (1 scala source)
+2024.12.29 17:29:19 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:29:53 INFO  compiling hangman (1 scala source)
+2024.12.29 17:29:53 INFO  time: compiled hangman in 0.4s
+2024.12.29 17:30:00 INFO  compiling hangman (1 scala source)
+2024.12.29 17:30:00 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:30:02 INFO  compiling hangman (1 scala source)
+2024.12.29 17:30:02 INFO  time: compiled hangman in 0.16s
+2024.12.29 17:30:06 INFO  compiling hangman (1 scala source)
+2024.12.29 17:30:06 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:30:08 INFO  compiling hangman (1 scala source)
+2024.12.29 17:30:08 INFO  time: compiled hangman in 0.36s
+Dec 29, 2024 5:30:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10374
+2024.12.29 17:30:15 INFO  compiling hangman (1 scala source)
+2024.12.29 17:30:15 INFO  time: compiled hangman in 0.33s
+2024.12.29 17:30:25 INFO  compiling hangman (1 scala source)
+2024.12.29 17:30:25 INFO  time: compiled hangman in 0.16s
+2024.12.29 17:30:26 INFO  compiling hangman (1 scala source)
+2024.12.29 17:30:26 INFO  time: compiled hangman in 0.34s
+2024.12.29 17:31:33 INFO  compiling hangman (1 scala source)
+2024.12.29 17:31:33 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:31:46 INFO  compiling hangman (1 scala source)
+2024.12.29 17:31:46 INFO  time: compiled hangman in 0.36s
+2024.12.29 17:31:50 INFO  compiling hangman (1 scala source)
+2024.12.29 17:31:50 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:32:26 INFO  compiling hangman (1 scala source)
+2024.12.29 17:32:26 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:32:34 INFO  compiling hangman (1 scala source)
+2024.12.29 17:32:34 INFO  time: compiled hangman in 0.32s
+2024.12.29 17:33:45 INFO  compiling hangman (1 scala source)
+2024.12.29 17:33:45 INFO  time: compiled hangman in 0.18s
+2024.12.29 17:33:48 INFO  compiling hangman (1 scala source)
+2024.12.29 17:33:48 INFO  time: compiled hangman in 0.17s
+2024.12.29 17:33:50 INFO  compiling hangman (1 scala source)
+2024.12.29 17:33:50 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:33:52 INFO  compiling hangman (1 scala source)
+2024.12.29 17:33:52 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:34:03 INFO  compiling hangman (1 scala source)
+2024.12.29 17:34:03 INFO  time: compiled hangman in 0.16s
+2024.12.29 17:34:07 INFO  compiling hangman (1 scala source)
+2024.12.29 17:34:07 INFO  time: compiled hangman in 0.16s
+2024.12.29 17:34:58 INFO  compiling hangman (1 scala source)
+2024.12.29 17:34:58 INFO  time: compiled hangman in 0.19s
+2024.12.29 17:35:05 INFO  compiling hangman (1 scala source)
+2024.12.29 17:35:05 INFO  time: compiled hangman in 0.35s
+2024.12.29 17:35:16 INFO  compiling hangman (1 scala source)
+2024.12.29 17:35:16 INFO  time: compiled hangman in 0.15s
+2024.12.29 17:35:17 INFO  compiling hangman (1 scala source)
+2024.12.29 17:35:17 INFO  time: compiled hangman in 0.39s
+2024.12.29 17:35:22 INFO  compiling hangman (1 scala source)
+2024.12.29 17:35:22 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:35:23 INFO  compiling hangman (1 scala source)
+2024.12.29 17:35:23 INFO  time: compiled hangman in 0.31s
+2024.12.29 17:35:26 INFO  compiling hangman (1 scala source)
+2024.12.29 17:35:26 INFO  time: compiled hangman in 0.13s
+2024.12.29 17:35:30 INFO  compiling hangman (1 scala source)
+2024.12.29 17:35:30 INFO  time: compiled hangman in 0.33s
+2024.12.29 17:36:02 INFO  compiling hangman (1 scala source)
+2024.12.29 17:36:02 INFO  time: compiled hangman in 0.33s
+2024.12.29 17:36:07 INFO  compiling hangman (1 scala source)
+2024.12.29 17:36:07 INFO  time: compiled hangman in 0.38s
+2024.12.29 17:38:08 INFO  compiling hangman (1 scala source)
+2024.12.29 17:38:08 INFO  time: compiled hangman in 0.4s
