@@ -1,0 +1,4 @@
+[debug] [hangman-test] Classpath dependencies List()
+[debug] [hangman-test] Dependencies from configurations List(hangman)
+[debug] Bloop wrote the configuration of project 'hangman-test' to 'C:\Faks 3\PL\hangman\.bloop\hangman-test.json'
+[success] Generated .bloop\hangman-test.json
