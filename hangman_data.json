@@ -1,0 +1,83 @@
+{
+  "hena": {
+    "username": "hena",
+    "password": "123",
+    "games": [
+      {
+        "word": "maja",
+        "guessesLeft": 5,
+        "hangmanState": 1,
+        "pooledWordSet": [
+          "m"
+        ],
+        "wordSet": [
+          "m",
+          "a",
+          "j"
+        ]
+      }
+    ]
+  },
+  "arci": {
+    "username": "arci",
+    "password": "123",
+    "games": [
+      {
+        "word": "test",
+        "guessesLeft": 5,
+        "hangmanState": 1,
+        "pooledWordSet": [
+          "t",
+          "e",
+          "s"
+        ],
+        "wordSet": [
+          "t",
+          "e",
+          "s"
+        ]
+      }
+    ]
+  },
+  "edina": {
+    "username": "edina",
+    "password": "123",
+    "games": [
+      {
+        "word": "banana",
+        "guessesLeft": 4,
+        "hangmanState": 2,
+        "pooledWordSet": [
+          "b",
+          "a",
+          "n"
+        ],
+        "wordSet": [
+          "b",
+          "a",
+          "n"
+        ]
+      }
+    ]
+  },
+  "test": {
+    "username": "test",
+    "password": "123",
+    "games": [
+      {
+        "word": "maja",
+        "guessesLeft": 5,
+        "hangmanState": 1,
+        "pooledWordSet": [
+          "m",
+          "a"
+        ],
+        "wordSet": [
+          "m",
+          "a",
+          "j"
+        ]
+      }
+    ]
+  }
+}
