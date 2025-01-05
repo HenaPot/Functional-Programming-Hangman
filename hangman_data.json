@@ -1,6 +1,6 @@
 {
-  "hena": {
-    "username": "hena",
+  "test": {
+    "username": "test",
     "password": "123",
     "games": [
       {
@@ -8,12 +8,78 @@
         "guessesLeft": 5,
         "hangmanState": 1,
         "pooledWordSet": [
-          "m"
+          "m",
+          "a"
         ],
         "wordSet": [
           "m",
           "a",
           "j"
+        ]
+      },
+      {
+        "word": "banana",
+        "guessesLeft": 3,
+        "hangmanState": 3,
+        "pooledWordSet": [
+          "b",
+          "a",
+          "n"
+        ],
+        "wordSet": [
+          "b",
+          "a",
+          "n"
+        ]
+      },
+      {
+        "word": "banana",
+        "guessesLeft": 3,
+        "hangmanState": 3,
+        "pooledWordSet": [
+          "b",
+          "a",
+          "n"
+        ],
+        "wordSet": [
+          "b",
+          "a",
+          "n"
+        ]
+      },
+      {
+        "word": "hena",
+        "guessesLeft": 0,
+        "hangmanState": 6,
+        "pooledWordSet": [
+          "a",
+          "e",
+          "h"
+        ],
+        "wordSet": [
+          "h",
+          "e",
+          "n",
+          "a"
+        ]
+      },
+      {
+        "word": "osmoza",
+        "guessesLeft": 6,
+        "hangmanState": 0,
+        "pooledWordSet": [
+          "s",
+          "a",
+          "m",
+          "o",
+          "z"
+        ],
+        "wordSet": [
+          "s",
+          "a",
+          "m",
+          "o",
+          "z"
         ]
       }
     ]
@@ -36,6 +102,221 @@
           "e",
           "s"
         ]
+      },
+      {
+        "word": "urajina",
+        "guessesLeft": 0,
+        "hangmanState": 6,
+        "pooledWordSet": [
+          "r",
+          "u"
+        ],
+        "wordSet": [
+          "n",
+          "j",
+          "u",
+          "a",
+          "i",
+          "r"
+        ]
+      },
+      {
+        "word": "jdskdsakda",
+        "guessesLeft": 6,
+        "hangmanState": 0,
+        "pooledWordSet": [
+          "j",
+          "d"
+        ],
+        "wordSet": [
+          "s",
+          "j",
+          "a",
+          "k",
+          "d"
+        ]
+      },
+      {
+        "word": "jdskdsakda",
+        "guessesLeft": 5,
+        "hangmanState": 1,
+        "pooledWordSet": [
+          "j",
+          "d",
+          "k"
+        ],
+        "wordSet": [
+          "s",
+          "j",
+          "a",
+          "k",
+          "d"
+        ]
+      },
+      {
+        "word": "jdskdsakda",
+        "guessesLeft": 5,
+        "hangmanState": 1,
+        "pooledWordSet": [
+          "j",
+          "d",
+          "k"
+        ],
+        "wordSet": [
+          "s",
+          "j",
+          "a",
+          "k",
+          "d"
+        ]
+      }
+    ]
+  },
+  "hena": {
+    "username": "hena",
+    "password": "123",
+    "games": [
+      {
+        "word": "maja",
+        "guessesLeft": 5,
+        "hangmanState": 1,
+        "pooledWordSet": [
+          "m"
+        ],
+        "wordSet": [
+          "m",
+          "a",
+          "j"
+        ]
+      },
+      {
+        "word": "kartofel",
+        "guessesLeft": 0,
+        "hangmanState": 6,
+        "pooledWordSet": [
+          "k",
+          "a"
+        ],
+        "wordSet": [
+          "e",
+          "t",
+          "f",
+          "a",
+          "l",
+          "r",
+          "k",
+          "o"
+        ]
+      },
+      {
+        "word": "banana",
+        "guessesLeft": 0,
+        "hangmanState": 6,
+        "wordSet": [
+          "b",
+          "a",
+          "n"
+        ]
+      },
+      {
+        "word": "oweiruiweuriewr",
+        "guessesLeft": 0,
+        "hangmanState": 6,
+        "pooledWordSet": [
+          "o"
+        ],
+        "wordSet": [
+          "e",
+          "u",
+          "i",
+          "r",
+          "w",
+          "o"
+        ]
+      },
+      {
+        "word": "maja",
+        "guessesLeft": 5,
+        "hangmanState": 1,
+        "pooledWordSet": [
+          "m",
+          "a"
+        ],
+        "wordSet": [
+          "m",
+          "a",
+          "j"
+        ]
+      },
+      {
+        "word": "test",
+        "guessesLeft": 4,
+        "hangmanState": 2,
+        "pooledWordSet": [
+          "t"
+        ],
+        "wordSet": [
+          "t",
+          "e",
+          "s"
+        ]
+      },
+      {
+        "word": "test",
+        "guessesLeft": 0,
+        "hangmanState": 6,
+        "pooledWordSet": [
+          "t"
+        ],
+        "wordSet": [
+          "t",
+          "e",
+          "s"
+        ]
+      }
+    ]
+  },
+  "lejla": {
+    "username": "lejla",
+    "password": "123",
+    "games": [
+      {
+        "word": "jedra",
+        "guessesLeft": 6,
+        "hangmanState": 0,
+        "pooledWordSet": [
+          "e",
+          "j",
+          "a",
+          "r",
+          "d"
+        ],
+        "wordSet": [
+          "e",
+          "j",
+          "a",
+          "r",
+          "d"
+        ]
+      },
+      {
+        "word": "testic",
+        "guessesLeft": 6,
+        "hangmanState": 0,
+        "pooledWordSet": [
+          "e",
+          "s",
+          "t",
+          "i",
+          "c"
+        ],
+        "wordSet": [
+          "e",
+          "s",
+          "t",
+          "i",
+          "c"
+        ]
       }
     ]
   },
@@ -57,25 +338,63 @@
           "a",
           "n"
         ]
-      }
-    ]
-  },
-  "test": {
-    "username": "test",
-    "password": "123",
-    "games": [
+      },
       {
-        "word": "maja",
-        "guessesLeft": 5,
-        "hangmanState": 1,
+        "word": "miju",
+        "guessesLeft": 6,
+        "hangmanState": 0,
         "pooledWordSet": [
           "m",
-          "a"
+          "i",
+          "j",
+          "u"
         ],
         "wordSet": [
           "m",
+          "i",
+          "j",
+          "u"
+        ]
+      },
+      {
+        "word": "kakanj",
+        "guessesLeft": 6,
+        "hangmanState": 0,
+        "pooledWordSet": [
+          "k",
           "a",
+          "n",
           "j"
+        ],
+        "wordSet": [
+          "k",
+          "a",
+          "n",
+          "j"
+        ]
+      }
+    ]
+  },
+  "hen": {
+    "username": "hen",
+    "password": "123"
+  },
+  "jsdkasndsda": {
+    "username": "jsdkasndsda",
+    "password": "123",
+    "games": [
+      {
+        "word": "banana",
+        "guessesLeft": 4,
+        "hangmanState": 2,
+        "pooledWordSet": [
+          "b",
+          "a"
+        ],
+        "wordSet": [
+          "b",
+          "a",
+          "n"
         ]
       }
     ]

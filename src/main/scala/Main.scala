@@ -69,8 +69,20 @@ val HangmanPics: Array[String] = Array(
   """
 )
 
-val words = Array("banana", "test", "osmoza", "hena", "maja")
+val words = Array(
+  "banana", "elephant", "chicken", "purple", "amazing", "mountain", "journey", "holiday", "freedom", "rainbow",
+  "diamond", "fiction", "picture", "thought", "windows", "sunshine", "welcome", "science", "history", "dolphin",
+  "octopus", "pyramid", "library", "unicorn", "blossom", "comfort", "forever", "giraffe", "imagine", "luggage",
+  "orchard", "painter", "shelter", "teacher", "vaccine", "whistle", "concert", "deserve", "example", "grateful",
+  "justice", "kingdom", "laughter", "morning", "natural", "outside", "pioneer", "quality", "respect", "seaside",
+  "texture", "umbrella", "village", "whisper", "zipper", "beehive", "capture", "curtain", "delight", "eclipse",
+  "fantasy", "genuine", "harvest", "inspire", "journey", "kinetic", "loyalty", "mission", "novelty", "orchard",
+  "passion", "quality", "rescue", "sunrise", "trouble", "upgrade", "victory", "wisdom", "yellow", "zealous",
+  "builder", "chimney", "dessert", "enchant", "fortune", "glimmer", "harvest", "iceberg", "justice", "kingdom",
+  "leisure", "miracle", "network", "outlook", "pattern", "respect", "student", "treasure", "venture", "weather"
+)
 val dataFile = os.pwd / "hangman_data.json"
+val multiplayerDataFile = os.pwd / "hangman_multiplayer_data.json"
 
 @main def hangman(): Unit = {
   println("Welcome to Hangman!")
@@ -98,13 +110,17 @@ def mainMenu(user: UserData, users: Map[String, UserData]): Unit = {
   println("1. Start a new game")
   println("2. Resume last game")
   println("3. View scoreboard")
-  println("4. Quit")
+  println("4. Multiplayer mode (set a word for another player)")
+  println("5. Multiplayer mode (play given words)")
+  println("6. Quit")
 
   readLine("Choose an option: ") match {
     case "1" => startNewGame(user, users)
     case "2" => resumeGame(user, users)
     case "3" => viewScoreboard(users)
-    case "4" => println("Goodbye!")
+    case "4" => multiplayerMode(user, users)
+    case "5" => playMultiplayerGame(user, users)
+    case "6" => println("Goodbye!")
     case _ =>
       println("Invalid option. Try again.")
       mainMenu(user, users)
@@ -148,12 +164,68 @@ def viewScoreboard(users: Map[String, UserData]): Unit = {
     mainMenu(users.head._2, users)
   } else {
     println("Returning to the game start.")
-    hangman() 
+    hangman()
   }
 }
 
+def multiplayerMode(currentUser: UserData, users: Map[String, UserData]): Unit = {
+  println("\nMultiplayer Mode:")
+  if (users.size < 2) {
+    println("Not enough users for multiplayer mode.")
+    mainMenu(currentUser, users)
+    return
+  }
 
+  val otherUsers = users.keys.filter(_ != currentUser.username).toList
+  println("Available users to set a word for:")
+  otherUsers.zipWithIndex.foreach { case (username, index) =>
+    println(s"${index + 1}. $username")
+  }
 
+  val selectedIndex = readLine("Choose a user by number: ").toIntOption
+  selectedIndex match {
+    case Some(index) if index > 0 && index <= otherUsers.size =>
+      val chosenUser = otherUsers(index - 1)
+      val word = prompt(s"Enter a word for $chosenUser:").toLowerCase
+      if (word.forall(_.isLetter)) {
+        val multiplayerData = loadMultiplayerData()
+        val updatedData = multiplayerData.updatedWith(chosenUser) {
+          case Some(words) => Some(words :+ word)
+          case None        => Some(List(word))
+        }
+        saveMultiplayerData(updatedData)
+        println(s"The word has been set for $chosenUser!")
+        mainMenu(currentUser, users)
+      } else {
+        println("Invalid word. Only letters are allowed.")
+        multiplayerMode(currentUser, users)
+    }
+    case _ =>
+      println("Invalid selection. Try again.")
+      multiplayerMode(currentUser, users)
+  }
+}
+
+def playMultiplayerGame(user: UserData, users: Map[String, UserData]): Unit = {
+  val multiplayerData = loadMultiplayerData()
+  multiplayerData.get(user.username) match {
+    case Some(words) if words.nonEmpty =>
+      val word = words.head
+      val initialState = GameState(
+        word = word,
+        guessesLeft = HangmanPics.length - 1,
+        hangmanState = 0,
+        pooledWordSet = Set(),
+        wordSet = word.toSet
+      )
+      val updatedData = multiplayerData.updated(user.username, words.tail)
+      saveMultiplayerData(updatedData)
+      playGame(initialState, user, users)
+    case _ =>
+      println("No multiplayer games available.")
+      mainMenu(user, users)
+  }
+}
 
 def playGame(state: GameState, user: UserData, users: Map[String, UserData]): Unit = {
   if (state.guessesLeft > 0 && state.pooledWordSet != state.wordSet) {
@@ -208,6 +280,15 @@ def saveGame(user: UserData, game: GameState, users: Map[String, UserData]): Map
   val updatedUsers = users.updated(user.username, updatedUser)
   saveUsers(updatedUsers)
   updatedUsers
+}
+
+def loadMultiplayerData(): Map[String, List[String]] = {
+  if (os.exists(multiplayerDataFile)) read[Map[String, List[String]]](os.read(multiplayerDataFile))
+  else Map()
+}
+
+def saveMultiplayerData(data: Map[String, List[String]]): Unit = {
+  os.write.over(multiplayerDataFile, write(data, indent = 2), createFolders = true)
 }
 
 def prompt(message: String): String = {
