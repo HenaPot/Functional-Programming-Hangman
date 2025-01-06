@@ -84,6 +84,10 @@
       }
     ]
   },
+  "hen": {
+    "username": "hen",
+    "password": "123"
+  },
   "arci": {
     "username": "arci",
     "password": "123",
@@ -273,6 +277,24 @@
           "e",
           "s"
         ]
+      },
+      {
+        "word": "askdnasjd",
+        "guessesLeft": 0,
+        "hangmanState": 6,
+        "pooledWordSet": [
+          "d",
+          "s",
+          "j"
+        ],
+        "wordSet": [
+          "s",
+          "n",
+          "j",
+          "a",
+          "k",
+          "d"
+        ]
       }
     ]
   },
@@ -375,26 +397,22 @@
       }
     ]
   },
-  "hen": {
-    "username": "hen",
-    "password": "123"
-  },
-  "jsdkasndsda": {
-    "username": "jsdkasndsda",
+  "test 2": {
+    "username": "test 2",
     "password": "123",
     "games": [
       {
-        "word": "banana",
-        "guessesLeft": 4,
-        "hangmanState": 2,
-        "pooledWordSet": [
-          "b",
-          "a"
-        ],
+        "word": "rainbow",
+        "guessesLeft": 0,
+        "hangmanState": 6,
         "wordSet": [
-          "b",
+          "n",
           "a",
-          "n"
+          "i",
+          "b",
+          "r",
+          "w",
+          "o"
         ]
       }
     ]

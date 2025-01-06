@@ -7674,3 +7674,39 @@ INFO: Unsupported notification method: $/setTrace
 2024.12.31 14:40:02 INFO  Exiting server
 2025.01.05 20:30:54 INFO  Started: Metals version 1.4.2 in folders 'C:\Faks 3\PL\hangman' for client Visual Studio Code 1.96.2.
 2025.01.05 20:30:55 INFO  no build target found for C:\Faks 3\PL\hangman\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.05 20:30:57 INFO  no build target found for C:\Faks 3\PL\hangman\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.05 20:30:57 INFO  Attempting to connect to the build server...
+2025.01.05 20:30:57 INFO  No running Bloop server found, starting one.
+2025.01.05 20:30:58 INFO  Starting compilation server
+2025.01.05 20:31:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Faks 3\PL\hangman\.metals\bsp.trace.json or C:\Users\Hena\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.01.05 20:31:02 INFO  Attempting to connect to the build server...
+2025.01.05 20:31:02 INFO  Found a Bloop server running
+2025.01.05 20:31:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Faks 3\PL\hangman\project\.metals\bsp.trace.json or C:\Users\Hena\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.01.05 20:31:02 INFO  time: Connected to build server in 4.7s
+2025.01.05 20:31:02 INFO  Connected to Build server: Bloop v2.0.6
+2025.01.05 20:31:02 INFO  time: Imported build in 0.24s
+2025.01.05 20:31:02 INFO  running doctor check
+2025.01.05 20:31:02 INFO  java targets: hangman, hangman-build, hangman-test
+2025.01.05 20:31:09 INFO  time: indexed workspace in 7.04s
+2025.01.05 20:40:33 INFO  compiling hangman (1 scala source)
+2025.01.05 20:40:40 INFO  time: compiled hangman in 7.17s
+2025.01.05 20:49:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Faks 3\PL\hangman\.metals\dap-server.trace.json or C:\Users\Hena\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.01.05 20:49:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Faks 3\PL\hangman\.metals\dap-client.trace.json or C:\Users\Hena\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.01.05 20:49:42 INFO  Starting debug proxy for [hangman]
+2025.01.05 20:49:44 INFO  Loaded expression compiler in 1 second
+2025.01.05 20:49:44 INFO  Loaded step filter in 233 milliseconds
+2025.01.05 20:49:50 INFO  Loaded all sources and classes in 5 seconds
+2025.01.05 20:49:51 INFO  Initialized Scala 3 decoder in 1 second
+2025.01.05 20:49:51 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54246 .
+2025.01.05 20:49:51 INFO  Attaching to debuggee VM succeeded.
+2025.01.05 20:49:54 INFO  Canceling debug proxy for [hangman]
+2025.01.05 20:49:54 INFO  Closing debug server tcp://0.0.0.0:54243
+2025.01.05 21:10:28 INFO  compiling hangman (1 scala source)
+2025.01.05 21:10:30 INFO  time: compiled hangman in 2.15s
+2025.01.05 21:11:59 INFO  compiling hangman (1 scala source)
+2025.01.05 21:12:01 INFO  time: compiled hangman in 1.71s
+2025.01.05 21:53:32 INFO  Shutting down server
+2025.01.05 21:53:32 INFO  shutting down Metals
+2025.01.05 21:53:32 INFO  Shut down connection with build server.
+2025.01.05 21:53:32 INFO  Shut down connection with build server.
+2025.01.05 21:53:32 INFO  Exiting server

@@ -69,23 +69,18 @@ val HangmanPics: Array[String] = Array(
   """
 )
 
-val words = Array(
-  "banana", "elephant", "chicken", "purple", "amazing", "mountain", "journey", "holiday", "freedom", "rainbow",
-  "diamond", "fiction", "picture", "thought", "windows", "sunshine", "welcome", "science", "history", "dolphin",
-  "octopus", "pyramid", "library", "unicorn", "blossom", "comfort", "forever", "giraffe", "imagine", "luggage",
-  "orchard", "painter", "shelter", "teacher", "vaccine", "whistle", "concert", "deserve", "example", "grateful",
-  "justice", "kingdom", "laughter", "morning", "natural", "outside", "pioneer", "quality", "respect", "seaside",
-  "texture", "umbrella", "village", "whisper", "zipper", "beehive", "capture", "curtain", "delight", "eclipse",
-  "fantasy", "genuine", "harvest", "inspire", "journey", "kinetic", "loyalty", "mission", "novelty", "orchard",
-  "passion", "quality", "rescue", "sunrise", "trouble", "upgrade", "victory", "wisdom", "yellow", "zealous",
-  "builder", "chimney", "dessert", "enchant", "fortune", "glimmer", "harvest", "iceberg", "justice", "kingdom",
-  "leisure", "miracle", "network", "outlook", "pattern", "respect", "student", "treasure", "venture", "weather"
+val words: Array[String] = Array(
+  "banana", "elephant", "mountain", "journey", "freedom", "rainbow", "diamond", "fiction", "windows", "sunshine",
+  "science", "history", "dolphin", "pyramid", "library", "unicorn", "blossom", "comfort", "forever", "giraffe",
+  "imagine", "luggage", "orchard", "painter", "shelter", "teacher", "vaccine", "whistle", "concert", "example"
 )
+
 val dataFile = os.pwd / "hangman_data.json"
 val multiplayerDataFile = os.pwd / "hangman_multiplayer_data.json"
 
 @main def hangman(): Unit = {
   println("Welcome to Hangman!")
+
   val users = loadUsers()
 
   val username = prompt("Enter your username:")
@@ -98,8 +93,10 @@ val multiplayerDataFile = os.pwd / "hangman_multiplayer_data.json"
     case None =>
       println("New user detected. Registering...")
       val newUser = UserData(username, password, Nil)
-      saveUsers(users + (username -> newUser))
-      newUser
+      val updatedUsers = users + (username -> newUser)
+      saveUsers(updatedUsers)
+      mainMenu(newUser, updatedUsers)
+      return
   }
 
   mainMenu(user, users)
@@ -117,7 +114,9 @@ def mainMenu(user: UserData, users: Map[String, UserData]): Unit = {
   readLine("Choose an option: ") match {
     case "1" => startNewGame(user, users)
     case "2" => resumeGame(user, users)
-    case "3" => viewScoreboard(users)
+    case "3" =>
+      viewScoreboard(users)
+      mainMenu(user, users)
     case "4" => multiplayerMode(user, users)
     case "5" => playMultiplayerGame(user, users)
     case "6" => println("Goodbye!")
@@ -136,7 +135,8 @@ def startNewGame(user: UserData, users: Map[String, UserData]): Unit = {
     pooledWordSet = Set(),
     wordSet = word.toSet
   )
-  playGame(initialState, user, users)
+  val updatedUsers = saveGame(user, initialState, users)
+  playGame(initialState, user, updatedUsers)
 }
 
 def resumeGame(user: UserData, users: Map[String, UserData]): Unit = {
@@ -159,12 +159,6 @@ def viewScoreboard(users: Map[String, UserData]): Unit = {
       val wins = data.games.count(gameWon)
       println(s"$username: $wins wins out of $totalGames games")
     }
-  }
-  if (users.nonEmpty) {
-    mainMenu(users.head._2, users)
-  } else {
-    println("Returning to the game start.")
-    hangman()
   }
 }
 
@@ -199,7 +193,7 @@ def multiplayerMode(currentUser: UserData, users: Map[String, UserData]): Unit =
       } else {
         println("Invalid word. Only letters are allowed.")
         multiplayerMode(currentUser, users)
-    }
+      }
     case _ =>
       println("Invalid selection. Try again.")
       multiplayerMode(currentUser, users)
@@ -220,7 +214,8 @@ def playMultiplayerGame(user: UserData, users: Map[String, UserData]): Unit = {
       )
       val updatedData = multiplayerData.updated(user.username, words.tail)
       saveMultiplayerData(updatedData)
-      playGame(initialState, user, users)
+      val updatedUsers = saveGame(user, initialState, users)
+      playGame(initialState, user, updatedUsers)
     case _ =>
       println("No multiplayer games available.")
       mainMenu(user, users)
@@ -273,7 +268,8 @@ def loadUsers(): Map[String, UserData] = {
   else Map()
 }
 
-def saveUsers(users: Map[String, UserData]): Unit = os.write.over(dataFile, write(users, indent = 2), createFolders = true)
+def saveUsers(users: Map[String, UserData]): Unit =
+  os.write.over(dataFile, write(users, indent = 2), createFolders = true)
 
 def saveGame(user: UserData, game: GameState, users: Map[String, UserData]): Map[String, UserData] = {
   val updatedUser = user.copy(games = user.games :+ game)
